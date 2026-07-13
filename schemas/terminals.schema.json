@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/terminals.schema.json",
+  "title": "Terminal Workspace Manager configuration",
+  "type": "object",
+  "required": ["version", "terminals"],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "terminals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "shell": {
+            "type": "string"
+          },
+          "cwd": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "command": {
+            "type": "string"
+          },
+          "commandFile": {
+            "type": "string"
+          },
+          "show": {
+            "type": "boolean"
+          },
+          "restore": {
+            "type": "boolean"
+          },
+          "group": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          },
+          "delay": {
+            "type": "number"
+          },
+          "clear": {
+            "type": "boolean"
+          },
+          "env": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "workspaceFolder": {
+            "type": "string"
+          },
+          "closeOnExit": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+Terminal Workspace Manager License
+
+Copyright (c) 2026 Gnanendra P.
+All rights reserved.
+
+Permission is granted to any person to install and use this software free of charge.
+
+The software is licensed, not sold.
+
+You may:
+
+✓ Install the extension.
+✓ Use the extension for personal, educational, and commercial purposes.
+
+You may NOT:
+
+✗ Copy the source code.
+✗ Reverse engineer the software except where required by applicable law.
+✗ Modify the software.
+✗ Redistribute the software.
+✗ Publish the software elsewhere.
+✗ Sell the software.
+✗ Create derivative works.
+✗ Remove or modify copyright notices.
+
+The software is provided "AS IS", without warranty of any kind.
+
+The copyright owner retains all ownership and intellectual property rights.

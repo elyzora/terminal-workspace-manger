@@ -1,0 +1,82 @@
+{
+  "name": "terminal-workspace-manager",
+  "displayName": "Terminal Workspace Manager",
+  "description": "Automatically restore VS Code terminals from .vscode/terminals.json",
+  "version": "0.0.1",
+  "publisher": "GnanendraP",
+  "license": "LICENSE.txt",
+  "icon": "assets/terminal-workspace-manger.png",
+  "preview": true,
+  "galleryBanner": {
+    "color": "#007ACC",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "terminal",
+    "workspace",
+    "layout",
+    "restore",
+    "shell",
+    "developer",
+    "automation",
+    "multi-root",
+    "terminal manager",
+    "startup",
+    "productivity",
+    "devtools"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:terminalWorkspaceManager.restore",
+    "onCommand:terminalWorkspaceManager.save",
+    "onCommand:terminalWorkspaceManager.delete",
+    "onCommand:terminalWorkspaceManager.reload"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "terminalWorkspaceManager.restore",
+        "title": "Terminal Workspace Manager: Restore Layout"
+      },
+      {
+        "command": "terminalWorkspaceManager.save",
+        "title": "Terminal Workspace Manager: Save Layout"
+      },
+      {
+        "command": "terminalWorkspaceManager.delete",
+        "title": "Delete All Managed Terminals"
+      },
+      {
+        "command": "terminalWorkspaceManager.reload",
+        "title": "Reload configuration"
+      }
+    ],
+    "jsonValidation": [
+      {
+        "fileMatch": ".vscode/terminals.json",
+        "url": "./schemas/terminals.schema.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node --test dist/test/*.test.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/vscode": "^1.95.0",
+    "@vscode/vsce": "^3.2.1",
+    "typescript": "^5.7.2",
+    "vscode": "^1.1.37"
+  }
+}

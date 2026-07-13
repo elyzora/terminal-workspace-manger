@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+
+# Testing
+.vscode-test/
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Packaging
+*.vsix
+
+# Release artifacts
+release/
+releases/
+
+# Git origin / version metadata
+.git-credentials
+.gitconfig
+.version

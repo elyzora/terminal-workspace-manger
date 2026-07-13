@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "terminals": [
+    {
+      "name": "Backend",
+      "workspaceFolder": "backend",
+      "cwd": "./backend",
+      "shell": "zsh",
+      "icon": "server",
+      "color": "terminal.ansiGreen",
+      "command": "npm run dev",
+      "show": false,
+      "restore": true,
+      "group": "backend",
+      "order": 1,
+      "delay": 0,
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "name": "User",
+      "workspaceFolder": "user",
+      "cwd": "./user",
+      "icon": "person",
+      "color": "terminal.ansiBlue",
+      "command": "npm run dev",
+      "group": "frontend",
+      "order": 2
+    }
+  ]
+}
