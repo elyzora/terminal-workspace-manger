@@ -1,28 +1,21 @@
-Terminal Workspace Manager License
+MIT License
 
 Copyright (c) 2026 Gnanendra P.
-All rights reserved.
 
-Permission is granted to any person to install and use this software free of charge.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The software is licensed, not sold.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You may:
-
-✓ Install the extension.
-✓ Use the extension for personal, educational, and commercial purposes.
-
-You may NOT:
-
-✗ Copy the source code.
-✗ Reverse engineer the software except where required by applicable law.
-✗ Modify the software.
-✗ Redistribute the software.
-✗ Publish the software elsewhere.
-✗ Sell the software.
-✗ Create derivative works.
-✗ Remove or modify copyright notices.
-
-The software is provided "AS IS", without warranty of any kind.
-
-The copyright owner retains all ownership and intellectual property rights.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
